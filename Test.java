@@ -6,8 +6,10 @@ public class Test {
 		int n = in.nextInt();
 		String s = "Hello";
 		//exception handling to come later
-		multiPrint(n, s);
+		for(int i = 0 ; i < n; i++)
+			System.out.println(s);
 	}
+	/*
 	public static void multiPrint(int n, String s) {
   		if(n == 0)
 			return;
@@ -17,4 +19,5 @@ public class Test {
 		}
 			
 	}
+	*/
 }
